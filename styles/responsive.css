@@ -1,0 +1,58 @@
+@media screen and (max-width:730px){
+    .nav-menu{
+        display: none;
+    }
+
+
+    .comecar-botao{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .mobile-menu-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    main h1{
+        font-size: 48px;
+    }
+
+    
+} 
+
+@media(max-width:1168px){
+    .estudante{
+        display: none;
+    }
+
+    .descricao{
+        text-align: center;
+    }
+
+    
+}
+
+@media(max-width:1076px){
+    main ul{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .mobile-menu {
+        display: none !important;
+    }
+    #overlay {
+        display: none !important;
+    }
+}

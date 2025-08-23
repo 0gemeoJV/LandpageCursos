@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2F8EA3;
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    transition-duration: 0.1s;
+}
+
+.propaganda-botao{
+    background-color: #FDF5F2;
+    color: #2F8EA3;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.menu-icon{
+    background-color: white;
+    color: #4B4847;
+    font-size:25px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+button:hover{
+    background-color: #1E5B69;
+}
+
+.propaganda-botao:hover{
+    color: white;
+}
+
+.menu-icon:hover{
+    background-color: white;
+}
+
+.menu-icon:active{
+    background-color: #C3BDBB;;
+}

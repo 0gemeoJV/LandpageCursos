@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://kit.fontawesome.com/b95a02b008.js" crossorigin="anonymous"></script>
+    <title>Edupro</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="imagens/logo/logo-sem-fundo.png" alt="logo" width="150" height="100">
+        </h1>
+        <nav class="nav-menu">
+            <ul>
+                <li class="cabecalho"><a href="">Cursos</a></li>
+                <li class="cabecalho"><a href="">Sobre</a></li>
+                <li class="cabecalho"><a href="">Contatos</a></li>
+                <li class="cabecalho"><a href="">Depoimentos</a></li>
+            </ul>
+        </nav>
+        <button class="comecar-botao">começar agora</button>
+        <button onclick="showMenu()" class="menu-icon"><i class="fa-solid fa-bars"></i></button>
+        <div class="mobile-menu" id="mobile-icon">
+            <ul class="mobile-menu-items">
+                <li class="cabecalho"><a href="">Cursos</a></li>
+                <li class="cabecalho"><a href="">Sobre</a></li>
+                <li class="cabecalho"><a href="">Contatos</a></li>
+                <li class="cabecalho"><a href="">Depoimentos</a></li>
+                <li><button class="comecar-botao-mobile">começar agora</button></li>
+            </ul>
+        </div>   
+    </header>
+
+    <main>
+        <div id="overlay" onclick="hideMenu()"></div>
+        <div class="propaganda">
+            <div class="descricao">
+                <h1>Transforme seu futuro com cursos profissionalizantes</h1>
+                <p class="propaganda-texto">Aprenda com os melhores profissionais do mercado e conquiste sua certificação profissional</p>
+                <button class="propaganda-botao">Ver cursos</button>
+                <button class="propaganda-botao">Saiba mais</button>
+            </div>
+            <img class="estudante" src="imagens/estudantes/estudante-650.jpeg" alt="estudante">
+        </div>
+        <div>
+            <h2>Por que escolher nossos cursos?</h2>
+            <ul>
+                <li class="porque-nossos-cursos">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Certificação reconhecida</h3>
+                    <p>Certificados válidos em todo território nacional e reconhecidos pelo mercado</p>
+                </li>
+                <li class="porque-nossos-cursos">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Aulas Online</h3>
+                    <p>Estude no seu ritmo, com acesso 24/7 a todo conteúdo</p>
+                </li>
+                <li class="porque-nossos-cursos">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Suporte personalizado</h3>
+                    <p>Mentoria individual e suporte técnico para as suas dúvidas.</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Cursos em destaque</h2>
+            <ul>
+                <li class="curso-destaque">
+                    <img src="imagens/desenvolvimento_web/web-designer600x400.jpg" alt="desenvolvimento_web" class="cursos-foto">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Aprenda HTML, CSS e JavaScript do zero ao avançado.</p>
+                    <p>R$497,00</p>
+                    <button>Matricular</button>
+                </li>
+                <li class="curso-destaque">
+                    <img src="imagens/marketing_digital/designer-grafico-600x400.jpg" alt="marketing_digital" class="cursos-foto">
+                    <h3>Marketing digital</h3>
+                    <p> Venha aprender estratégias para dominar o marketing online.</p>
+                    <p>R$397,00</p>
+                    <button>Matricular</button>
+                </li>
+                <li class="curso-destaque">
+                    <img src="imagens/design-grafico/pexels-tranmautritam-326501_resized.jpg" alt="design-grafico" class="cursos-foto"> 
+                    <h3>Design Gráfico</h3>
+                    <p>Conheça do básico ao avançado as ferramentas de design.</p>
+                    <p>R$447,00</p>
+                    <button>Matricular</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contatos">
+            <ul class="contatos-lista">
+                <li class="contatos-icones"><a class="icones" href="#icones"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="https://www.instagram.com/j.v_matos/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="#icones"><i class="fa-solid fa-envelope"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="#icones"><i class="fa-solid fa-phone"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="#icones"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="https://github.com/0gemeoJV"><i class="fa-brands fa-github"></i></a></li>
+
+            </ul>   
+        </div>
+        <p class="rodape">&copy;2024 JV desenvolvedor web. Todos os direitos autorais reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
