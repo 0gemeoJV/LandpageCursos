@@ -131,9 +131,12 @@ footer{
 }
 
 .contatos{
-    width: 400px;
+    /* Remova a largura fixa e centralize o contêiner */
+    width: 90%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap; /* Adiciona essa propriedade para quebrar a linha */
+    justify-content: center; /* Centraliza os ícones */
 }
 
 .contatos-icones{
