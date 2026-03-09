@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
 }
 
 body{
@@ -43,11 +49,12 @@ a{
     color: #FDF5F2;
     font-size: 20px;
     border-radius: 10px;
-     
+    margin: 0px 10px;
 }
 
 .propaganda-texto{
     color: white;
+    margin: 50px 0px;
 }
 
 .descricao{
@@ -110,11 +117,20 @@ h2{
     height: 150px;
 }
 
+.porque-nossos-cursos p{
+    margin-top: 40px;
+}
 
 .curso-destaque{
     align-items:center;
     box-shadow: 0 4px 8px 0 #4B4847;
     width: 400px;
+}
+
+.preco{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .cursos-foto{
@@ -123,6 +139,7 @@ h2{
 }
 
 footer{
+    margin: auto;
     margin-top: 100px;
     background-color: #011F26;
     color: #B1C5AC;
